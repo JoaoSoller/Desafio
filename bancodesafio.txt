@@ -1,0 +1,19 @@
+create database bancodesafio;
+
+use bancodesafio;
+
+CREATE TABLE `Carro` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`Placa` VARCHAR(8),
+	`Chassi` VARCHAR(17),
+	`Marca` INT,
+	`Modelo` VARCHAR(55),
+	`fabricacaoano` VARCHAR(15),
+	`modeloano` VARCHAR(15),
+	`tabelafipe` DOUBLE,
+	`valorvenda` DOUBLE,
+	`Observacoes` VARCHAR(50),
+	PRIMARY KEY (`id`)
+);
+
+
